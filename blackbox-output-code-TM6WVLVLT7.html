@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kocaeli Üniversitesi Ekonomi Kulübü</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> <!-- Google Fonts: Roboto -->
+    <style>
+        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; line-height: 1.6; }
+        header { background-color: #004080; color: white; text-align: center; padding: 50px 20px; }
+        .hero { padding: 100px 20px; text-align: left; /* Sola yaslandı */ }
+        .hero h1 { font-size: 2.5em; margin-bottom: 10px; color: black; }
+        .hero p { font-size: 1.2em; margin-bottom: 20px; color: black; }
+        .btn { background-color: #ff6600; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 0 10px; display: inline-block; }
+        .btn:hover { background-color: #e55a00; }
+        nav { background-color: #333; padding: 10px; text-align: center; position: sticky; top: 0; z-index: 100; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: 500; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 40px 20px; max-width: 1200px; margin: 50px auto; /* Margin artırıldı */ border: 1px solid #ddd; /* Görünürlük için border eklendi */ border-radius: 5px; background-color: white; /* Arka plan beyaz */ }
+        .highlight { background-color: #e0f7fa; padding: 20px; border-left: 5px solid #004080; margin: 20px 0; border-radius: 5px; }
+        .stats { display: flex; justify-content: space-around; text-align: center; margin: 20px 0; }
+        .stats div { background-color: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .activities { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .activity { background-color: white; padding: 20px; margin: 10px; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); width: 30%; min-width: 250px; text-align: center; }
+        .activity img { width: 100%; height: 150px; object-fit: cover; border-radius: 5px; margin-bottom: 10px; }
+        .about { background-color: white; padding: 30px; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: 20px 0; text-align: center; /* Düzgün merkezde dursun */ }
+        .about h3 { color: #004080; margin-top: 20px; }
+        .about ul { list-style-type: disc; margin-left: 20px; text-align: left; /* Liste sola yaslı */ }
+        form { background-color: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); max-width: 600px; margin: 0 auto; }
+        form input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; font-family: 'Roboto', sans-serif; }
+        form button { background-color: #004080; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; width: 100%; font-family: 'Roboto', sans-serif; }
+        form button:hover { background-color: #003366; }
+        footer { background-color: #333; color: white; text-align: center; padding: 20px; }
+        @media (max-width: 600px) { .stats, .activities { flex-direction: column; } .activity { width: 100%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kocaeli Üniversitesi Ekonomi Kulübü</h1>
+    </header>
+    
+    <nav>
+        <a href="#anasayfa">Ana Sayfa</a>
+        <a href="momentum.html" target="_blank">Momentum Dergisi</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#etkinlikler">Etkinliklerimiz</a>
+        <a href="#isbirlikleri">İş Birlikleri & Sponsorluk</a>
+        <a href="#uye-basvurusu">Üye Başvurusu</a>
+    </nav>
+    
+    <section id="anasayfa" class="hero">
+        <h1>Sınırsız İhtiyaçlara Sınırsız Kulüp</h1>
+        <p>Kocaeli Üniversitesi Ekonomi Kulübü; öğrencileri akademik gelişim, kariyer yolculuğu ve sosyal etkileşim alanlarında destekleyen, dinamik ve üretken bir öğrenci topluluğudur.</p>
+    </section>
+    
+    <section>
+        <div class="highlight">
+            <h2>Kulüp Tanıtım Alanı</h2>
+            <p>Ekonomi Kulübü, yalnızca etkinlik düzenleyen bir topluluk değil; üyelerinin akademik, profesyonel ve sosyal gelişimini önemseyen bir gelişim ekosistemidir. Konferanslardan kariyer etkinliklerine, sosyo-kültürel organizasyonlardan projelere kadar geniş bir yelpazede faaliyet gösterir.</p>
+            <h3>Kulübün En Büyük Farkı</h3>
+            <p>“Herkesin Parlamasına İzin Veriyoruz.” Kulüp yapısı; üyelerin kendini gösterebildiği, sorumluluk alabildiği ve üretime katılabildiği bir ortam sunar. Her üye yalnızca katılımcı değil, aynı zamanda sürecin aktif bir parçasıdır.</p>
+        </div>
+        
+        <div class="stats">
+            <div>
+                <h3>300+ Etkinlik</h3>
+                <p>Sürekli aktif organizasyon yapısı</p>
+            </div>
+            <div>
+                <h3>Akademik & Sosyal Gelişim</h3>
+                <p>Odaklı topluluk</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="hakkimizda" class="about">
+        <h2>🧠 Hakkımızda</h2>
+        <h3>Kuruluş ve Vizyon</h3>
+        <p>Kocaeli Üniversitesi Ekonomi Kulübü, 1995 yılında öğrencilerin ekonomi disiplinini yalnızca teorik bir alan olarak değil; üretim, sürdürülebilirlik, emek ve toplumsal dönüşüm ekseninde değerlendirebilmesi amacıyla kurulmuş köklü bir öğrenci topluluğudur.</p>
+        
+        <h3>Misyon ve Faaliyetler</h3>
+        <p>Kurulduğu günden bu yana üniversite ile iş dünyası arasında köprü kurmayı, öğrencilerin analitik düşünme becerilerini geliştirmeyi ve sektörel farkındalıklarını artırmayı temel misyon edinmiş; ekonomiyi hayatın merkezinde konumlandıran vizyonuyla faaliyetlerini sürdürmüştür.</p>
+        
+        <h3>Liderlik ve Yapılanma</h3>
+        <p>Kulüp, 2025 yılı itibarıyla İlayda Kara başkanlığında akademik bilgi ile gerçek hayat pratiklerini daha güçlü biçimde buluşturan, üretim odaklı ve kurumsal iş birliklerini artıran bir yapılanma sürecini devam ettirmektedir.</p>
+        
+        <h3>Etkinlikler ve Yayınlar</h3>
+        <ul>
+            <li>Teknik geziler, kariyer konferansları, tematik söyleşiler ve atölye çalışmalarıyla öğrencileri doğrudan sektör temsilcileriyle buluşturan kulübümüz.</li>
+            <li>Düşünsel üretimi desteklemek amacıyla her ay düzenli olarak yayımlanmaya başlayan Momentum dergisiyle ekonomik, toplumsal ve küresel meseleleri öğrencilerin bakış açısıyla ele alan kalıcı bir yayın kültürü oluşturmuştur.</li>
+        </ul>
+        
+        <h3>Başarılar ve Etki</h3>
+        <p>2025 yılı boyunca gerçekleştirilen 9 nitelikli etkinlik ile cam, otomotiv, finans, sürdürülebilirlik ve insan kaynakları gibi farklı sektörlerden öncü kurumlar öğrencilerle bir araya getirilmiş; bununla birlikte Gençlik ve Spor Bakanlığı tarafından desteklenen projeler arasında yer alan sürdürülebilirlik projemiz, 200’den fazla proje arasından seçilerek üniversiteler düzeyinde ilk 20 proje içine girmiş ve kulübümüzün üretim gücünü ile sosyal etki kapasitesini ulusal ölçekte ortaya koymuştur.</p>
+        
+        <h3>Geleceğe Bakış</h3>
+        <p>Ekonomi Kulübü, öğrencilerin yalnızca bugünü değil geleceği de okuyabilen bireyler olarak yetişmesine katkı sunan, aktif, üretken ve kurumsal etki alanı güçlü bir topluluk olarak çalışmalarını sürdürmektedir.</p>
+    </section>
+    
+    <section id="etkinlikler">
+        <h2>✨ Etkinliklerimiz</h2>
+        <p>Kulübümüzün üretim odaklı yapısını yansıtan çeşitli kategorilerde etkinlikler düzenliyoruz. Aşağıda ana kategorilerimizi ve örnekleri bulabilirsiniz:</p>
+        <div class="activities">
+            <div class="activity">
+                <h3>Workshoplar</h3>
+                <p>Pratik beceri geliştirme odaklı oturumlar, örneğin yatırım stratejileri veya veri analizi workshop'ları.</p>
+            </div>
+            <div class="activity">
+                <h3>Kariyer Etkinlikleri</h3>
+                <p>Staj fırsatları, CV hazırlama ve mülakat teknikleri üzerine kariyer odaklı programlar.</p>
+            </div>
+            <div class="activity">
+                <h3>Sosyal Sorumluluk Projeleri</h3>
+                <p>Toplumsal etki yaratan projeler, örneğin sürdürülebilirlik çalışmaları ve yardım kampanyaları.</p>
+            </div>
+            <div class="activity">
+                <h3>Teknik Geziler</h3>
+                <p>Fabrika ve kurum ziyaretleri ile sektör içi deneyim kazanma fırsatları.</p>
+            </div>
+            <div class="activity">
+                <h3>Vaka Analizi Çalışmaları</h3>
+                <p>Gerçek dünya ekonomik vakalarının tartışıldığı interaktif oturumlar.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="isbirlikleri">
+        <h2>🤝 İş Birlikleri & Sponsorluk</h2>
+        <p>Ekonomi Kulübü, markalar için üniversite kampüsünde güçlü bir etkileşim alanı sunar. Yapılan iş birlikleri sayesinde firmalar genç hedef kitleye doğrudan ulaşır, etkinliklerde görünürlük kazanır ve öğrenci topluluklarıyla sürdürülebilir bağlar kurar.</p>
+        <h3>Markalara Sağlanan Faydalar:</h3>
+        <ul>
+            <li>Kampüs içi görünürlük</li>
+            <li>Sosyal medya tanıtımı</li>
+            <li>Genç hedef kitleye erişim</li>
+            <li>Etkinlik partnerliği</li>
+            <li>Stant ve marka konumlandırma fırsatları</li>
+        </ul>
+        <p>İletişim için: <a href="mailto:ekonomikou@gmail.com">ekonomikou@gmail.com</a></p>
+    </section>
+    
+    <section id="uye-basvurusu">
+        <h2>👥 Ekonomi Kulübü’ne Katıl</h2>
+        <p>Ekonomi Kulübü; organizasyon tecrübesi kazanmak, ekip çalışması içinde yer almak, projelerde aktif rol almak ve güçlü bir sosyal & akademik çevre edinmek isteyen öğrencileri bünyesine katmaktadır.</p>
+        <a href="https://forms.gle/zUzq1QEEQTxamXBg6" target="_blank" class="btn">Başvur</a>
+        <p><small>Güvenlik Notu: Paylaşılan bilgiler yalnızca kulüp içi iletişim amacıyla kullanılacaktır.</small></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Kocaeli Üniversitesi Ekonomi Kulübü. Tüm hakları saklıdır. İletişim: ekonomikou@gmail.com</p>
+    </footer>
+    
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
